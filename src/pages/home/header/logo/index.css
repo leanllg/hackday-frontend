@@ -1,0 +1,23 @@
+.logo {
+  width: 60px;
+  height: 55px;
+  background-color: blue;
+}
+
+.logo-text {
+  display: inline-block;
+  font-size:30px;
+  font-family:GillSans-Bold;
+  font-weight:bold;
+  color:rgba(41,78,125,1);
+  line-height:55px;
+  letter-spacing:2px;
+  margin-left: 24px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  height: 55px;
+  vertical-align: middle;
+}

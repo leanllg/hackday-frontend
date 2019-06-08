@@ -1,0 +1,39 @@
+.home-header {
+  margin: 25px 80px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.notification-icon {
+  width: 30px;
+  height: 34px;
+}
+
+.search-icon {
+  width: 65px;
+  height: 55px;
+}
+
+.user-link {
+  display: flex;
+  align-items: center;
+}
+
+.user-icon {
+  width:55px;
+  height: 55px;
+}
+
+.user-text {
+  width:120px;
+  height:27px;
+  font-size:22px;
+  font-family:GillSans-SemiBold;
+  font-weight:600;
+  color:rgba(41,78,125,1);
+  line-height:27px;
+  letter-spacing:1px;
+}
