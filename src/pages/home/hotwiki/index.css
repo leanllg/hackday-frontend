@@ -1,0 +1,18 @@
+.hotwiki-container {
+  display: flex;
+}
+
+.hotwiki-container .hotwiki-item-container {
+  margin-right: 22px;
+}
+
+.hotwiki-right {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 900px;
+}
+
+.hotwiki-right .hotwiki-item-container {
+  margin-bottom: 22px;
+}
+

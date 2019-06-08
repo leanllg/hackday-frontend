@@ -1,0 +1,47 @@
+.hotwiki-item-container {
+  background-color: white;
+  padding: 25px 30px 50px;
+  border-radius: 15px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.hotwiki-item-title-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.blue-rec {
+  width: 8px;
+  height: 22px;
+  background-color: #2684FF;
+  margin-right: 4px;
+  border-radius: 5px;
+}
+
+.hotwiki-item-title {
+  font-size:21px;
+  font-weight:600;
+  color:rgba(22,38,58,1);
+  line-height:29px;
+  letter-spacing:1px;
+}
+
+.hotwiki-content {
+  margin-top: 12px;
+  font-size:12px;
+  font-weight:400;
+  color:rgba(22,38,58,0.8);
+  line-height:17px;
+  letter-spacing:1px;
+}
+
+.hotwiki-bing {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+  width: 24px;
+  height: 24px;
+  background: url('../assets/bing.png') no-repeat center;
+}

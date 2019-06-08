@@ -1,8 +1,9 @@
 import * as React from "react"
+import "./index.css"
 
 class WikiDescription extends React.Component {
   render() {
-    return "description"
+    return <div className="wiki-des-container">sadfkl</div>
   }
 }
 

@@ -1,7 +1,7 @@
 .header {
   display: flex;
   justify-content: space-between;
-  margin: 25px 80px;
+  margin: 25px 5.56vw;
 }
 
 .header-nav {
