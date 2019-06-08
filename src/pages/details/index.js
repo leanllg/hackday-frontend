@@ -75,7 +75,40 @@ class Details extends React.Component {
     )
   }
 
-  renderDetailBtn() {}
+  renderDetailBtn() {
+    const { state } = this.state
+
+    if (state) {
+      return (
+        <div className="detail-btns">
+          <div className="detail-btn center" data-type="bing">
+            <span />
+          </div>
+          <div className="detail-btn center" data-type="edit">
+            <span />
+          </div>
+          <div className="detail-btn center" data-type="anti">
+            <span />
+          </div>
+        </div>
+      )
+    } else {
+      return (
+        <div>
+          <div className="detail-btns" />
+          <div className="detail-btn center" data-type="good">
+            <span />
+          </div>
+          <div className="detail-btn center" data-type="bad">
+            <span />
+          </div>
+          <div className="detail-btn center" data-type="soso">
+            <span />
+          </div>
+        </div>
+      )
+    }
+  }
 
   render() {
     return (

@@ -1,0 +1,144 @@
+.create-main-container {
+  padding: 50px 80px;
+  background: #F5F6FA;
+  position: relative;
+}
+
+.create-main-container.tag {
+  padding-bottom: 160px;
+}
+
+.create-main-title {
+  box-sizing: border-box;
+  display: flex;
+}
+
+.create-main-title div {
+  box-sizing: border-box;
+  display: flex;
+  border-radius:20px;
+  width:161px;
+  height:52px;
+  padding: 15px 44px;
+  background:rgba(228,235,247,1);
+  cursor: pointer;
+}
+
+.create-main-title div.active {
+  background: #2684FF;
+  color: white;
+}
+
+.create-main-title div:first-child {
+  margin-right: 35px;
+}
+
+.create-select-title {
+  font-size:18px;
+  color:rgba(22,38,58,1);
+  line-height:29px;
+  letter-spacing:1px;
+  margin-bottom: 16px;
+  margin-top: 30px;
+}
+
+.create-input-title {
+  width:791px;
+  height:60px;
+  box-sizing: border-box;
+  background:rgba(255,255,255,1);
+  border-radius:20px;
+  outline: none;
+  border: 0;
+}
+
+.create-text-area {
+  width: 790px;
+  height: 314px;
+  box-sizing: border-box;
+  background:rgba(255,255,255,1);
+  border-radius:20px;
+  outline: none;
+  border: 0;
+}
+
+.create-select-tag {
+  display: flex;
+}
+
+.create-select-right {
+  margin-left: 50px;
+}
+
+.create-select-add {
+  box-sizing: border-box;
+  padding: 38px 27px 53px;
+  width:439px;
+  height:351px;
+  background:rgba(255,255,255,1);
+  border-radius:20px;
+}
+
+.create-s {
+  display: flex;
+}
+
+.create-select-add input {
+  padding: 20px;
+  box-sizing: border-box;
+  width:283px;
+  height:50px;
+  background:rgba(245,246,250,1);
+  border-radius:15px;
+  outline: none;
+  border: 0;
+}
+
+.create-search {
+  width:85px;
+  height:50px;
+  margin-left: 16px;
+  background:rgba(38,132,255,1);
+  border-radius:16px;
+}
+
+.create-s {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.create-s-tag {
+  width:107px;
+  height:40px;
+  background:rgba(38,132,255,1);
+  border-radius:28px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: 27px;
+}
+
+.create-s-tag:nth-child(3n+1) {
+  margin-left: 0;
+}
+
+.create-footer {
+  width: 100%;
+  height: 230px;
+}
+
+.create-submit {
+  padding: 18px 35px;
+  box-sizing: border-box;
+  width:161px;
+  height:64px;
+  background:rgba(38,132,255,1);
+  border-radius:16px;
+  color: white;
+  letter-spacing:1px;
+  position: absolute;
+  bottom: 40px;
+  right: 80px;
+}

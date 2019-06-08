@@ -1,6 +1,7 @@
 .detail-container {
   background: #F5F6FA;
   padding: 60px 80px;
+  position: relative;
 }
 
 .blue-rec {
@@ -155,4 +156,27 @@
   width: 55px;
   height: 55px;
   margin-left: 18px;
+}
+
+.detail-btns {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  right: 80px;
+  top: 60px;
+}
+
+.detail-btn {
+  width: 97px;
+  height: 97px;
+  margin-bottom: 40px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.detail-btn[data-type="bing"]  span{
+  display: block;
+  background: url(../home/assets/bing.png) no-repeat center;
+  width: 30px;
+  height: 30px;
 }
