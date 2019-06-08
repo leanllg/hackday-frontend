@@ -100,6 +100,7 @@ module.exports = function(webpackEnv) {
             require("postcss-px-to-viewport")({
               viewportWidth: 1440,
               fontViewportUnit: "px",
+              propList: ["*", "!font*"],
               selectorBlackList: ["header"]
             }),
             // Adds PostCSS Normalize as the reset css with default options,

@@ -15,7 +15,7 @@ class Home extends React.PureComponent {
           <HotWiki />
           <WikiDescription />
         </div>
-        <div>
+        <div className="home-main-content">
           <Wikis />
           <DayInHistory />
         </div>

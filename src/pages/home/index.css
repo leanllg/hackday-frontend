@@ -3,3 +3,9 @@
   display: flex;
   padding: 61px 5.56vw;
 }
+
+.home-main-content {
+  display: flex;
+  padding: 40px 80px;
+  background: #F5F6FA;
+}

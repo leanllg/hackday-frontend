@@ -34,7 +34,7 @@ class HotWiki extends React.Component {
               width: (269 / 1440) * 100 + "vw",
               height: (179 / 1440) * 100 + "vw"
             }}
-            title="UNIQUE HACKDAY"
+            title="HACKDAY"
             content="意为探索用户体验与工程实践是什么呢 没意思的事情什么的"
             padding="28px 20px 40px"
             bingRight={(20 / 1440) * 100 + "vw"}

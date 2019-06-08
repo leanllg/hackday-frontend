@@ -1,0 +1,35 @@
+.wiki-des-title {
+  font-size:20px;
+  font-family:PingFangSC-Semibold;
+  font-weight:600;
+  color:rgba(22,38,58,1);
+  line-height:29px;
+  letter-spacing:1px;
+  margin-bottom: 20px;
+}
+
+.dayh-title {
+  font-size:20px;
+  font-family:PingFangSC-Semibold;
+  font-weight:600;
+  color:rgba(22,38,58,1);
+  line-height:29px;
+  letter-spacing:1px;
+  margin-bottom: 20px;
+}
+
+.dayh-container {
+  margin-left: 30px;
+}
+
+.dayh-content {
+  background: url('../assets/dayh.png') no-repeat center;
+  background-size: contain;
+  width:450px;
+  height: 340px;
+}
+
+.dayh-main-container {
+  background: white;
+  border-radius:20px;
+}
