@@ -1,4 +1,6 @@
-.home-header {
+.header {
+  display: flex;
+  justify-content: space-between;
   margin: 25px 80px;
 }
 
@@ -7,14 +9,23 @@
   align-items: center;
 }
 
+.header-nav a {
+  margin-left: 20px;
+  text-decoration: none;
+}
+
 .notification-icon {
   width: 30px;
   height: 34px;
+  background: url(../assets/notyfication.png) no-repeat center;
+  background-size: contain;
 }
 
 .search-icon {
   width: 65px;
   height: 55px;
+  background: url(../assets/search.png) no-repeat center;
+  background-size: contain;
 }
 
 .user-link {
@@ -23,15 +34,15 @@
 }
 
 .user-icon {
-  width:55px;
+  width: 55px;
   height: 55px;
+  background: url(../assets/user-logo.png) no-repeat center;
+  background-size: contain;
+  margin-left: 20px;
 }
 
 .user-text {
-  width:120px;
-  height:27px;
   font-size:22px;
-  font-family:GillSans-SemiBold;
   font-weight:600;
   color:rgba(41,78,125,1);
   line-height:27px;

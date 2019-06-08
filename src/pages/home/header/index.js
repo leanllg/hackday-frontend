@@ -1,6 +1,7 @@
 import * as React from "react"
 import Logo from "./logo"
 import Nav from "../../../components/Nav"
+import "./index.css"
 
 class Header extends React.Component {
   links = [

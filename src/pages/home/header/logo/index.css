@@ -6,12 +6,10 @@
 
 .logo-text {
   display: inline-block;
-  font-size:30px;
-  font-family:GillSans-Bold;
-  font-weight:bold;
-  color:rgba(41,78,125,1);
-  line-height:55px;
-  letter-spacing:2px;
+  background: url(../../assets/logo.png) no-repeat center;
+  background-size: contain;
+  width: 250px;
+  height: 100%;
   margin-left: 24px;
 }
 
