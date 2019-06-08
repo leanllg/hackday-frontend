@@ -4,6 +4,35 @@ import Nav from "../../../components/Nav"
 import "./index.css"
 
 class Header extends React.Component {
+  state = {
+    tags: [],
+    show: false
+  }
+
+  renderSearchComponent() {
+    const { tags } = this.state
+    return (
+      <div className="header-c">
+        <div className="header-sc">
+          <input className="header-input" />
+          <div className="header-search" />
+        </div>
+        <div>
+          {tags.map(({ tag, id }) => (
+            <div className="header-tag" key={id}>
+              {tag}
+            </div>
+          ))}
+        </div>
+      </div>
+    )
+  }
+
+  handleSearchClick = e => {
+    e.preventDefault()
+    this.setState({ show: true })
+  }
+
   links = [
     {
       id: "notification",
@@ -13,7 +42,9 @@ class Header extends React.Component {
     {
       id: "search",
       url: "/search",
-      component: <div className="search-icon" />
+      component: (
+        <div onClick={this.handleSearchClick} className="search-icon" />
+      )
     },
     {
       id: "info",
@@ -29,10 +60,13 @@ class Header extends React.Component {
 
   render() {
     return (
-      <div className="header">
-        <Logo />
-        <Nav className="header-nav" links={this.links} />
-      </div>
+      <>
+        <div className="header">
+          <Logo />
+          <Nav className="header-nav" links={this.links} />
+        </div>
+        {this.state.show && this.renderSearchComponent()}
+      </>
     )
   }
 }
