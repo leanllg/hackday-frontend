@@ -9,7 +9,7 @@
 .hotwiki-right {
   display: flex;
   flex-wrap: wrap;
-  max-width: 900px;
+  max-width: 550px;
 }
 
 .hotwiki-right .hotwiki-item-container {
