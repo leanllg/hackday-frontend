@@ -1,7 +1,7 @@
 .header {
   display: flex;
   justify-content: space-between;
-  margin: 25px 5.56vw;
+  margin: 20px 5.56vw;
 }
 
 .header-nav {
@@ -16,14 +16,14 @@
 
 .notification-icon {
   width: 30px;
-  height: 34px;
+  height: 30px;
   background: url(../assets/notyfication.png) no-repeat center;
   background-size: contain;
 }
 
 .search-icon {
-  width: 65px;
-  height: 55px;
+  width: 50px;
+  height: 50px;
   background: url(../assets/search.png) no-repeat center;
   background-size: contain;
 }
@@ -34,15 +34,15 @@
 }
 
 .user-icon {
-  width: 55px;
-  height: 55px;
+  width: 40px;
+  height: 40px;
   background: url(../assets/user-logo.png) no-repeat center;
   background-size: contain;
   margin-left: 20px;
 }
 
 .user-text {
-  font-size:22px;
+  font-size:16px;
   font-weight:600;
   color:rgba(41,78,125,1);
   line-height:27px;
